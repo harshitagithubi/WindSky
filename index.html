@@ -72,6 +72,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 20px;
+            align-items: stretch;
             margin-bottom: 30px;
         }
         
@@ -348,7 +349,7 @@
             flex: 1;
         }
             .main-weather {
-                grid-template-columns: 1fr;
+                grid-template-columns: 1fr 1fr;
             }
             
             .sun-moon-section {
@@ -785,9 +786,8 @@ function updateHealthSuggestions(tempC, aqi, weatherCode, uvIndex, windSpeed, hu
 }
 
 function setBackgroundByTemp(tempC) {
-  // Keep the blue theme regardless of temperature
-  document.body.style.background = 'linear-gradient(180deg, #1e3a8a, #3b82f6, #60a5fa, #93c5fd)';
-  document.body.style.color = '#ffffff';
+    document.body.style.background = 'linear-gradient(180deg, #1e3a8a, #3b82f6, #60a5fa, #93c5fd)';
+    document.body.style.color = '#ffffff';
 }
 
 function updateAQIBar(aqi) {
