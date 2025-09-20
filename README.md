@@ -2,7 +2,7 @@
 
 A comprehensive weather application demonstrating advanced front-end development and API integration capabilities.
 
-**Live Demo:** https://harshitagithubi.github.io/WindSky/
+
 
 ## Technical Skills
 
